@@ -5,6 +5,7 @@
 require 'rspec/core'
 require 'rspec/its'
 require 'inspec/rspec_json_formatter'
+require 'inspec/rspec_html_formatter'
 
 # There be dragons!! Or borgs, or something...
 # This file and all its contents cannot be unit-tested. both test-suits

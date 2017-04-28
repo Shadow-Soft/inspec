@@ -10,6 +10,7 @@ $LOAD_PATH.unshift(libdir) unless $LOAD_PATH.include?(libdir)
 require 'inspec/version'
 require 'inspec/profile'
 require 'inspec/rspec_json_formatter'
+require 'inspec/rspec_html_formatter'
 require 'inspec/rule'
 require 'matchers/matchers'
 require 'inspec/runner'
